@@ -1,1 +1,1 @@
-Solutions for AoC 2021.
+Solutions for Advent of Code 2021.
