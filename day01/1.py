@@ -9,6 +9,5 @@ def countLarger(inputs):
 def countLargerWindow(inputs):
     return sum([1 if sum(inputs[i:i+3]) > sum(inputs[i-1:i-1+3]) else 0 for i in range(1, len(inputs)-2)])
 
-
 print(countLarger(inputs))
 print(countLargerWindow(inputs))
