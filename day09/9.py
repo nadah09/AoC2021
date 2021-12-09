@@ -15,7 +15,7 @@ def isLow(i, j, graph):
     return u and d and l and r
 
 def part1(graph):
-    return sum([sum([graph[i][j]+1 if islow(i, j, graph) else 0 for j in range(len(graph[0]))]) for i in range(len(graph))])
+    return sum([sum([graph[i][j]+1 if isLow(i, j, graph) else 0 for j in range(len(graph[0]))]) for i in range(len(graph))])
 
 #Part 2
 def findLowPoints(graph):
